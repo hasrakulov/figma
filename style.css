@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    padding-top: 38px;
+    background: url(./img/Фон.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 144px;
+}
+
+.strs {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.str {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.2px;
+    text-align: left;
+    color: #FFF;
+}
+
+.seti {
+    display: flex;
+    align-items: center;
+}
+
+.setis {
+    margin-right: -10px;
+}
+
+.nomer {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #FFF;
+    padding-top: 13px;
+    margin-left: 30px;
+}
+
+.nomer3 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #FFF;
+    margin-top: -20px;
+}
+
+.h11 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    color: #FFFfff;
+}
+
+.p11 {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+    margin-top: 36px;
+    color: #FFF;
+    margin-bottom: 56px;
+    opacity: 0.5;
+}
+
+.btn1 {
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #210C51 85.8%);
+    border: none;
+    margin-right: 20px;
+    color: #FFF;
+    width: 260px;
+}
+
+.btn2 {
+
+    width: Fixed (260px)px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: transparent;
+    border: none;
+    color: #9166F0;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+    border: 2px solid #9166F0;
+    width: 260px;
+    text-align: center;
+}
+
+.h12 {
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.card2 {
+    background: url(./img/карточка\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: -40px;
+}
+
+.card3 {
+    background: url(./img/карточка\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    border-radius: 5px;
+}
+
+.card4 {
+    background: url(./img/карточка\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    border-radius: 5px;
+}
+
+.card5 {
+    background: url(./img/карточка\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    border-radius: 5px;
+}
+
+.card6 {
+    background: url(./img/карточка\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    border-radius: 5px;
+}
+
+.card7 {
+    background: url(./img/карточка.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 490px;
+    padding-left: 75px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+    border-radius: 5px;
+}
+
+.h21 {
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+
+}
+
+.p12 {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+
+}
+
+.pod {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+    color: #9166F0;
+}
+
+.card2 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+}
+
+.card3 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+    margin-top: 58px;
+}
+
+.card4 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+}
+
+.card5 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+    margin-top: 33px;
+}
+
+.card6 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+    margin-top: 33px;
+}
+
+.card7 .btn12 {
+    width: 330px;
+    height: Fixed (70px)px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #6139bf 85.8%);
+    border: none;
+    color: #FFF;
+}
+
+.section1 {
+    margin-bottom: 160px;
+}
+
+.h13 {
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 72px;
+}
+
+.soz {
+    color: #9166F0;
+}
+
+.hr1 {
+    margin-bottom: 42px;
+    color: #9166F0;
+}
+
+.hr2 {
+    margin-bottom: 52px;
+}
+
+.section2 {
+    margin-bottom: 215px;
+}
+
+.h14 {
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    text-align: center;
+}
+
+.btnfia {
+    width: 210px;
+    height: Hug (56px)px;
+    top: 3107px;
+    left: 350px;
+    padding: 16px 26px 17px 26px;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0px;
+    background-color: #9166F0;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #FFF;
+    text-align: center;
+}
+
+.btns {
+    margin-top: 26px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnras {
+    width: 210px;
+    height: Hug (56px)px;
+    top: 3107px;
+    left: 580px;
+    padding: 16px 26px 17px 26px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0.4;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+}
+
+.card21 {
+    display: flex;
+    gap: 26px;
+    box-shadow: 0px 0px 60px 0px #1626461A;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.opisaniya {
+    margin-top: 26px;
+}
+
+.h31 {
+    font-size: 22px;
+}
+
+.nim {
+    color: #9166F0;
+}
+
+.btnanom {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 50px;
+}
+
+.btnpo {
+    width: Fixed (240px)px;
+    height: Fixed (70px)px;
+    top: 4653px;
+    left: 680px;
+    padding: 20px 34px 21px 34px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 10px 25px 0px #D2B1CF4D;
+    border: 1px solid #9166F0;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #9166F0;
+    margin-top: 60px;
+    margin-bottom: 145px;
+    background-color: transparent;
+}
+
+.h15 {
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.section4 {
+    margin-bottom: 134px;
+}
+
+.h16 {
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.cardci {
+    box-shadow: 0px 10px 60px 0px #1C2D461A;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ciqqan {
+    margin-left: 18px;
+    margin-top: -50px;
+}
+
+.ogr {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    margin-left: 29px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+
+.btnpas {
+    width: 260px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #633BBC 85.8%);
+    border: none;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+footer {
+    background: #010423;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tel {
+    color: #FFF;
+    opacity: 0.4;
+}
+
+.telpo {
+    margin-bottom: -5px;
+    margin-top: 8px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.2px;
+    text-align: left;
+    color: #FFF;
+    opacity: 0.4;
+}
+
+.menu {
+    height: 30px;
+    width: 30px;
+}
+
+.h11 {
+    margin-top: 130px;
+}
+
+.btnsh1 {
+    display: flex;
+}
+
+.raq1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.raq2 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.raq3 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.raq4 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+@media (max-width: 787px) {
+    header {
+        background: url(./img/fon\ —\ копия\ \(2\).png);
+        margin-bottom: 91px;
+        height: 900px;
+    }
+
+    .h11 {
+        font-family: Ubuntu;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33.8px;
+        text-align: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .p11 {
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22.4px;
+        text-align: center;
+        opacity: 0.6;
+        margin-top: 13px;
+    }
+
+    .btnsh {
+        text-align: center;
+    }
+
+    .btn1 {
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .btn2 {
+        width: 300px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .h12 {
+        margin-bottom: 43px;
+    }
+
+    .card2 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .card3 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .card4 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .card5 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .card6 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .card7 {
+        padding-left: 66px;
+        width: 112%;
+        margin-bottom: -80px;
+    }
+
+    .btn12 {
+        width: 303px;
+    }
+
+    .h131 {
+        font-family: Ubuntu;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 33.8px;
+        text-align: center;
+
+    }
+
+    .minicard {
+        margin-top: 48px;
+    }
+
+    .imgbi {
+        width: 100%;
+    }
+
+    .bar {
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .h14 {
+        font-size: 45px;
+    }
+
+    .card21 {
+        display: block;
+    }
+
+    .siu {
+        width: 100%;
+    }
+
+    .opisaniya {
+        padding-left: 23px;
+        padding-bottom: 10px;
+    }
+
+    .h15 {
+        font-size: 45px;
+    }
+
+    .raq1 {
+        width: 64%;
+    }
+
+    .raq2 {
+        width: 95%;
+        margin-top: 55px;
+    }
+
+    .raq3 {
+        width: 64%;
+    }
+
+    .fo {
+        width: 30%;
+    }
+
+    .raq4 {
+        width: 30%;
+    }
+
+    .poim {
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: center;
+
+    }
+
+    .h16 {
+        font-family: Ubuntu;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 33.8px;
+        text-align: center;
+
+    }
+
+    .cardci {
+        height: 290px;
+        text-align: center;
+    }
+
+    .ciqqan {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .ogr {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .btnpo {
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+
+    .logo2 {
+        margin: auto;
+    }
+
+    .tel {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .nomer3 {
+        text-align: center;
+    }
+
+    .setis {
+        margin-top: 29px;
+        margin-bottom: 40px;
+    }
+
+    .setiss {
+        text-align: center;
+        padding-right: 10px;
+    }
+}
