@@ -546,11 +546,13 @@ footer {
     margin-top: 50px;
 }
 
-@media (max-width: 787px) {
+@media (max-width: 576px) {
     header {
         background: url(./img/fon\ —\ копия\ \(2\).png);
         margin-bottom: 91px;
         height: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .h11 {
