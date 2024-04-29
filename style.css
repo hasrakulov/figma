@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 header {
     padding-top: 38px;
-    background: url(./img/Фон.png);
+    background: url(./img/Фон.svg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,7 +125,7 @@ header {
 }
 
 .card2 {
-    background: url(./img/карточка\ \(5\).png);
+    background: url(./img/карточка\ \(5\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -136,7 +138,7 @@ header {
 }
 
 .card3 {
-    background: url(./img/карточка\ \(4\).png);
+    background: url(./img/карточка\ \(4\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -149,7 +151,7 @@ header {
 }
 
 .card4 {
-    background: url(./img/карточка\ \(3\).png);
+    background: url(./img/карточка\ \(3\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -162,7 +164,7 @@ header {
 }
 
 .card5 {
-    background: url(./img/карточка\ \(2\).png);
+    background: url(./img/карточка\ \(2\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -175,7 +177,7 @@ header {
 }
 
 .card6 {
-    background: url(./img/карточка\ \(1\).png);
+    background: url(./img/карточка\ \(1\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -188,7 +190,7 @@ header {
 }
 
 .card7 {
-    background: url(./img/карточка.png);
+    background: url(./img/карточка.svg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 470px;
@@ -458,13 +460,13 @@ header {
     box-shadow: 0px 10px 60px 0px #1C2D461A;
     height: 240px;
     border-radius: 10px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
 .ciqqan {
-    margin-left: 18px;
-    margin-top: -50px;
+    margin-left: -40px;
+    margin-top: -100px;
 }
 
 .ogr {
@@ -474,7 +476,7 @@ header {
     line-height: 20.8px;
     text-align: left;
     margin-left: 29px;
-    margin-top: 15px;
+    margin-top: -60px;
     margin-bottom: 23px;
 }
 
@@ -494,6 +496,7 @@ footer {
     background: #010423;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 80px;
 }
 
 .tel {
@@ -527,28 +530,206 @@ footer {
 }
 
 .raq1 {
+    width: 177px;
+    height: 221px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
 .raq2 {
+    width: 270px;
+    height: 221px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
 .raq3 {
+    width: 189px;
+    height: 221px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.raq4 {
+    width: 97px;
+    height: 221px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-.raq4 {
-    margin-bottom: 20px;
-    margin-top: 50px;
+.poim {
+    margin-top: -40px;
+}
+
+.fo {
+    width: 65px;
+    height: 91px;
+    margin-top: -40px;
+}
+
+.fat-setist{
+    display: flex;
+    align-items: center;
+}
+
+.setist {
+    margin-right: -10px;
+}
+
+.pro {
+    width: 400px;
+    height: 26px;
+    margin-top: 52px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.mal {
+    width: 660px;
+    height: 190px;
+    border: 1px;
+    margin-top: 63px;
+    border-radius: 10px;
+    color: rgba(91, 91, 91, 1);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 130px;
+    border: 1px solid rgba(145, 102, 240, 1)
+}
+
+.inputs {
+    gap: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.name {
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    padding-left: 21px;
+    border: 1px solid rgba(145, 102, 240, 1)
+}
+
+.email {
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    padding-left: 21px;
+    border: 1px solid rgba(145, 102, 240, 1)
+}
+
+.man-name {
+    width: 241px;
+    height: 32px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 20px;
+    color: rgba(26, 26, 26, 1);
+}
+
+.infor {
+    margin-top: 60px;
+}
+
+.man-in {
+    width: 171px;
+    height: 26px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(26, 26, 26, 1);
+}
+
+.in-em {
+    margin-top: 33px;
+}
+
+.email-hh {
+    width: 173px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(25, 25, 25, 1);
+}
+
+.tel-num {
+    width: 170px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(25, 25, 25, 1);
+}
+
+.work-day {
+    width: 291px;
+    height: 26px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 31px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(26, 26, 26, 1);
+}
+
+.proekt {
+    width: 330px;
+    height: 70px;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 20px 34px 21px 34px;
+    background: linear-gradient(275.53deg, #9166F0 8.77%, #210C51 85.8%);
+}
+
+.link-but {
+    width: 329px;
+    height: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.sp-lin {
+    width: 329px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
 }
 
 @media (max-width: 576px) {
     header {
-        background: url(./img/fon\ —\ копия\ \(2\).png);
+        background: url(./img/fon\ —\ копия\ \(2\).svg);
         margin-bottom: 91px;
         height: 900px;
         background-repeat: no-repeat;
